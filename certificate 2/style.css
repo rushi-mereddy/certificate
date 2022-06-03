@@ -1,0 +1,116 @@
+body{
+    background-color: white;
+    font-family: "Helvetica", Sans-Serif;
+}
+
+.container{
+    width: 950px;
+    height: 635px;
+    background-color: #ffffff;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.left{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: linear-gradient(0deg, rgba(9,122,218,255) 5%, rgba(120,220,235,255) 100%);
+}
+
+.right{
+    width: 82%;
+    height: 100%;
+    float: right;
+    padding-left: 20px;
+}
+
+.tag {
+    background: rgba(142,209,237,255);
+    /* display: inline-block; */
+    height: 90px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 0;
+    position: relative;
+    width: 130px;
+  }
+  .tag:after {
+    border-top: 30px solid rgba(142,209,237,255);
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute; ;
+    top: 100%;
+    width: 0;
+  }
+
+  .smart{
+      margin-top: 30px;
+      margin-left: 20px;
+  }
+
+  .head{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .date{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(78, 78, 78);
+    text-shadow: rgb(104, 104, 104) 0px 0px 1px;
+  }
+
+  .name{
+    font-size: 35px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  .title{
+    font-size: 28px;
+    margin-top: 15px;
+    width: 500px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  .description{
+    width: 460px;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    
+    }
+
+    ul{
+        list-style-type: none;
+        font-weight: lighter;
+        padding: 0; /* Remove padding */
+        margin: 0;
+        color: rgb(112, 112, 112);
+        
+    }
+
+    .modules{
+        font-size: 12px;
+        display: flex;
+    }
+
+    .rc{
+        margin-left: 180px; 
+        
+    }
+
+    .cred{
+        margin-top: 10px;
+        font-weight:550 ;
+        color: rgb(80, 80, 80);
+
+    }
