@@ -1,21 +1,24 @@
 body{
     background-color: white;
-    font-family: "Helvetica", Sans-Serif;
+    /* font-family: 'Chivo', sans-serif; */
 }
+
 
 .container{
     width: 950px;
     height: 635px;
-    background-color: #ffffff;
     margin: auto;
     box-shadow: 0px 0px 10px #000;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left{
     width: 15%;
     height: 100%;
     float: left;
-    background: linear-gradient(0deg, rgba(9,122,218,255) 5%, rgba(120,220,235,255) 100%);
+    
 }
 
 .right{
@@ -26,26 +29,15 @@ body{
 }
 
 .tag {
-    background: rgba(142,209,237,255);
     /* display: inline-block; */
     height: 90px;
     float: right;
-    margin-right: 45px;
+    margin-right: 35px;
     margin-top: 0;
     position: relative;
     width: 130px;
   }
-  .tag:after {
-    border-top: 30px solid rgba(142,209,237,255);
-    border-left: 65px solid transparent;
-    border-right: 65px solid transparent;
-    content: "";
-    height: 10px;
-    left: 0;
-    position: absolute; ;
-    top: 100%;
-    width: 0;
-  }
+  
 
   .smart{
       margin-top: 30px;
@@ -54,16 +46,17 @@ body{
 
   .head{
     margin-top: 50px;
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
   }
 
   .date{
     font-size: 15px;
     margin-top: 10px;
     color: rgb(78, 78, 78);
-    text-shadow: rgb(104, 104, 104) 0px 0px 1px;
+    /* text-shadow: rgb(104, 104, 104) 0px 0px 1px; */
   }
 
   .name{
@@ -72,6 +65,7 @@ body{
     text-transform: capitalize;
     text-decoration: underline;
     font-weight: 900;
+    font-family: 'Archivo Black', sans-serif;
   }
 
   .title{
@@ -80,6 +74,7 @@ body{
     width: 500px;
     text-transform: capitalize;
     font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
   }
 
   .description{
@@ -101,16 +96,23 @@ body{
     .modules{
         font-size: 12px;
         display: flex;
+        font-family: 'Chivo', sans-serif;
+        font-weight: lighter;
     }
 
     .rc{
-        margin-left: 180px; 
-        
+        margin-left: 145px;     
+        margin-top: -30px;    
+        justify-items: center;
     }
 
     .cred{
         margin-top: 10px;
-        font-weight:550 ;
-        color: rgb(80, 80, 80);
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
 
+    }
+
+    .sign{
+       margin-left: 70px;
     }
